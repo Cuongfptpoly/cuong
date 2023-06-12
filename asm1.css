@@ -1,0 +1,134 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.container{
+    max-width: auto;
+    margin: 0 auto;
+
+}
+header{
+    background-image:url(./img/showroom-honda-moto-phat-tien.jpg);
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+nav{
+    margin: 5px 0 5px 0;
+    }
+article{
+    min-height: 800px;
+    width: 69%;
+    background-color:white;
+    float: left;
+    margin: 5px;
+    margin-left: 0px;
+}
+aside{
+    min-height: 400px;
+    width: 28%;
+    background-color: lightgrey;
+    float: right;
+   border: 2px dotted black;
+    margin: 5px;
+    margin-right: 0px ;
+}
+iframe{
+    min-height: 1000px;
+}
+
+
+footer{
+    border-top: 5px double black;
+    line-height: 15px;
+    text-align: center;
+    font-variant: small;
+    clear: both;
+    font-size: 12px;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: black;
+    text-align: center;
+}
+.menu ul li a:hover{
+    color: yellow;
+}
+.menu ul li{
+    position: relative;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+}
+.menu ul ul a{
+    display: block;
+}
+.menu ul li:hover ul{
+    display: block;
+}
+.menu ul ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.menu ul ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+
+}
+.menu ul ul a{
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu ul ul a:hover{
+    background-color: black;
+    color: white;
+}
+.container aside ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: black;
+    text-align: center;
+}
+.container aside ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.container aside ul li a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}

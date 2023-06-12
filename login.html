@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-size: cover;
+            background-position-y: -80px;
+            font-size: 16px;
+        }
+        #wrapper{
+            min-height: 250px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+        }
+        #form-login{
+            max-width: 400px;
+            background: rgba(0, 0, 0, 0.8);
+            flex-grow: 1;
+            padding: 30põ 30px 40px;
+            box-shadow: 0px 0px 17px 2px rgba(255, 255,  255, 0.8);
+        }
+        h1{
+
+            font-size: 25px;
+            color: #f5f5f5;
+            text-align: center;
+            margin-bottom: 3px;
+
+        }
+        .form-group{
+            border-bottom: 1px solid #fff;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            display: flex;
+        }
+        .form-input{
+            background: transparent;
+            border: 0;
+            outline: 0;
+            color: #f5f5f5;
+            flex-grow: 1;
+        }
+        .form-input ::placeholder{
+            color: #f5f5f5;
+        }
+        .form-submit{
+            background: transparent;
+            border: 1px solid #f5f5f5;
+            color: #fff;
+            width: 48%;
+            text-transform: uppercase;
+            padding: 6px 10px;
+            transition: 0.25s ease-in-out;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            margin-left: 3px;
+        }
+        .form-submit:hover{
+            border: 1px solid #54a0ff;
+        }
+        a{
+            padding: 25px;
+            margin-top: 25px;
+            color: #f5f5f5;
+            text-decoration: none;
+
+        }
+        a:hover{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <form action="" id="form-login">
+            <h1>Đăng nhập</h1>
+            <div class="form-group">
+                <input type="text" class="form-input" placeholder="Tên đăng nhập" name="" id="">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-input" placeholder="Mật khẩu">
+            </div>
+                
+            <input type="submit" value="Đăng nhập" class="form-submit">
+            <input type="reset" value="Nhập lại"class="form-submit"> <br>
+            <a href="newuser.html">Đăng ký mới tại đây</a>
+
+        </form>
+    </div>
+</body>
+</html>
